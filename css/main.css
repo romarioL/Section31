@@ -1,0 +1,145 @@
+html {
+  font-family: 'Open Sans';
+}
+
+.black-body {
+  background-color: black;
+}
+
+#initial-banner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.background-text {
+  color: black;
+  width: 50%;
+  align-self: center;
+}
+
+.links-background {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+
+.button-primary {
+  padding: 6px;
+  width: 100px;
+  align-self: center;
+  background-color: transparent;
+  box-shadow: 6px 6px 	#000000;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.button-primary:hover {
+  background-color: #000000;
+  color: white;
+  box-shadow: none;
+}
+
+
+.link-primary {
+  margin-top: 20px;
+  margin: 5px;
+  text-decoration: none;
+  color: #808080;
+
+}
+
+.link-primary:hover {
+  color: #4682B4;
+}
+
+#header {
+  background-image: url(../img/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.navigation-text {
+  padding: 12px;
+}
+
+.navigation-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: 'Abril Fatface';
+  font-weight: bold;
+}
+
+.about, .jumbotron {
+  background-color: white;
+  margin: 100px;
+  padding: 100px;
+  text-align: justify;
+}
+
+.about-title, .jumbotron-title {
+  font-size: 60px;
+}
+
+.jumbotron-message {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: bold;
+}
+
+.posts, .postjumbotron {
+  background-color: white;
+  margin: 100px;
+  padding: 100px;
+  text-align: justify;
+}
+
+.post {
+  padding: 10px;
+}
+
+
+
+.bottom-jumbotron {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-area {
+  margin: 50px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 3px;
+}
+
+.input-area {
+  width: 100%;
+  height: 50px;
+}
+
+.textarea {
+  width: 100%;
+  height: 200px;
+}
